@@ -1,0 +1,168 @@
+html {
+  color: #283335;
+  background: #1e2e23;
+  height: 100%;
+  width: 100vw;
+}
+
+p, small, a {
+  color: #283335;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-top: -44px;
+  margin-left: -8px;
+  width: 100vw;
+  height: 340px;
+  background: #e1c45b;
+  position: relative;
+}
+
+.header h1 {
+  transform: translateY(137px);
+  font-size: 64px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.header p {
+  font-family: 'Lato', sans-serif;
+  transform: translateY(80px);
+}
+
+.date {
+  position: absolute;
+  bottom: 75px;
+  left: 15px;
+  z-index: 0;
+}
+
+.home {
+  position: fixed;
+  top: -20px;
+  right: 22px;
+}
+
+.one {
+  left: 22px;
+}
+
+.two {
+  left: 100px;
+}
+
+.three {
+  left: 210px;
+}
+
+.topbar {
+  text-align: right;
+  z-index: 1001;
+  top: -1px;
+  left: 0px;
+  position: fixed;
+  transition: 1s ease-in-out;
+}
+
+.topbar a {
+  position: fixed;
+  top: 14px;
+  padding:10px;
+  margin:10px;
+  transform: translateY(10px);
+}
+
+.home {
+  font-weight: bold;
+}
+
+a {
+  color: #283335;
+  text-decoration: none;
+  transition: .1s ease-in-out;
+  border-bottom: 0px solid #283335;
+}
+
+a:hover {
+  border-bottom: 3px solid #283335;
+}
+
+.head {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  margin-left: -8px;
+  width: calc(100% + -9px);
+  color: white;
+  background: #283335;
+  margin-top: 0px;
+}
+
+.p {
+  color: white;
+  background: #1e2e23;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 200px;
+  margin-left: -8px;
+  width: calc(100% + -400px);
+  margin-top: -22px;
+  font-size: 17px;
+}
+
+.p a {
+  color: #e1c45b;
+  text-decoration: none;
+  transition: .1s ease-in-out;
+  border-bottom: 0px solid #e1c45b;
+}
+
+.p a:hover {
+  border-bottom: 3px solid #e1c45b;
+}
+
+p, small, a {
+  color: #283335;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.topbar-overlay {
+  transition: .5s ease-in-out;
+  position: fixed;
+  background: #e1c45b;
+  top: -20px;
+  left: -20px;
+  width: 120%;
+  height: 130px;
+  pointer-events: none;
+}
+
+#spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:1s;
+  pointer-events: none;
+}
+
+#spinner h1{
+  position:fixed;
+  bottom:10px;
+}
+
+#spinner.show {
+  visibility: visible;
+  opacity: 1;
+}

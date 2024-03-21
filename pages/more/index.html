@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/images/newton.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>World of Acoustics</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="topbar">
+  <a href="/index.html" class="home">Home</a>
+  <a href="/pages/main/index.html" class="one">More</a>
+  <a href="/pages/properties/index.html" class="two">Properties</a>
+  <a href="/pages/buildings/index.html" class="three">Buildings</a>
+</div>
+
+<div class="topbar-overlay"></div>
+
+
+<div class="header">
+  <h1>More</h1>
+  <p class="subtitle">Simulations and more about sound.</p>
+</div>
+
+<body>
+  <h1 class="head">What is absorption?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;Sound absorption is when a sound wave is absorbed by a material meant to dampen the loudness of sound. It works by transferring the energy from a wave, in this case a sound wave. The more dense and porous a material is the more energy it is able to absorb, so materials like foam are able to absorb a lot of sound. <br><br>
+  </p>
+  
+  <h1 class="head">How Can Different Materials Affect Sound Absorption?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;Materials that are designed to absorb sound usually are made from foam, foam absorbs energy from sound waves and converts it into heat quite effectively and since foam is also porous is muffles sound really well. Materials that aren't very porous or have very flat surfaces like metal with make more sound waves bounce off them creating an echo, effectively amplifying sound. The material used for sound absorption is the most important aspect of a effective sound absorbing set up and a lot of thought must be used when choosing a suitable material for soundproofing a space.
+<br><br>
+  </p>
+
+  <h1 class="head">How Does The Distance From a Sound Source Affect The Loudness of The Sound You Hear?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;The farther you are from the source of a sound the quieter it gets this is because as a sound waves travels the energy of the amplitude from the sound wave is spread out over a larger distance making it quieter.
+  <br><br>
+    </p>
+
+  <h1 class="head">Where Would Sound Absorption Be Most Important?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;Sound absorption is really important if you want thing to have a clean or more crisp sound to them and eliminate background noise. This would be really important if you are recording audio for something like in a recording studio or if you are recording a video etc. Sound absorption is also important in places were live music is played, a lot of music venues employ different ways to absorb sound other than a basic sound absorption panel. A lot of older venues are architecturally built to absorb sound, obviously having thicker walls will dampen outside noise but some live music venues want the noise inside to be amplified so they use materials that will disperse sound waves (diffusion) but limit sound from escaping outside the walls.<br><br>
+    </p>
+
+  <h1 class="head">How Do Different Materials Affect The Loudness In a Room?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;A material that absorbs more sound will obviously make the room quieter, and a material that cause echos and soundwaves to disperse will make sounds louder and spread farther through the room.
+<br><br>
+  </p>
+
+  <h1 class="head">What Materials Absorb The Most Sound?</h1>
+  <p class="p about">&nbsp;&nbsp;&nbsp;&nbsp;Materials that are more dense and porous absorb more sound, the materials that absorb the most sound are usually foam looking materials, like acoustic sound panels. Other materials that absorb sound are really light and fluffy like fiberglass and cotton balls.<br><br>
+  </p>
+
+  <div id="spinner">
+    <img src="/files/images/loading.gif" width="200px">
+    <h1>Loading</h1>
+  </div>
+
+
+  <h1 class="simulation-title">Simulation:</h1>
+  <div class="play" id="play">
+    <span class="material-symbols-rounded">
+    play_circle
+    </span>
+  </div>
+  <p class="label" id="label">Enable Acoustic Foam</p>
+  <div class="simulation">
+    <img src="/files/images/leo_idle.png" alt="" class="leo" id="leo" height="250px">
+    <div id="barrier"></div>
+    <img src="/files/images/foam.webp" alt="" id="foam" class="foam">
+    <img src="/files/images/sound_wave.png" alt="" class="sound-wave" id="sound-wave">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
